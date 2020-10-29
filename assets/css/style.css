@@ -1,0 +1,27 @@
+body {
+    padding-top: 50px;
+}
+
+.jumbotron {
+    background-image: url("../img/bg-home-cta.svg");
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.card {
+    background-color: white;
+
+}
+
+nav {
+    margin-bottom: 0 !important;
+    border: none !important;
+}
+
+ #logo-google {
+     height: 18px;
+ }
+
+ .logos {
+     background-color: #f3f5f9;
+ }
