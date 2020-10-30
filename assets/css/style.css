@@ -3,7 +3,7 @@ body {
 }
 
 .jumbotron {
-    background-image: url("../img/bg-home-cta.svg");
+    background-image: url("../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
     background-size: cover;
     margin-bottom: 0;
 }
@@ -25,3 +25,28 @@ nav {
  .logos {
      background-color: #f3f5f9;
  }
+
+  .logos img {
+      width: 100%;
+      vertical-align: ;
+  }
+
+  .deploy ul {
+      border-left: 1px solid grey;
+      padding-left: 10px;
+  }
+
+  .deploy li {
+      line-height: 4.5rem;
+      list-style: none;
+      color: grey;
+      font-size: 2rem;
+  }
+
+  .pad-0 {
+      padding: 0 5px;
+  }
+
+  .logo-row {
+      line-height: 123.23px;
+  }
