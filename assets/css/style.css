@@ -2,15 +2,30 @@ body {
     padding-top: 50px;
 }
 
+.bg-white {
+  background-color: white;
+}
+
+.bg-grey {
+  background-color: #f3f5f9;
+}
+
+.bg-blue {
+    background-color: #031b4e;
+}
+
+.bg-electric-blue {
+    background-color: #0067ff;
+}
+
+.bg-dark-blue {
+    background-color: #031C4E;
+}
+
 .jumbotron {
     background-image: url("../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
     background-size: cover;
     margin-bottom: 0;
-}
-
-.card {
-    background-color: white;
-
 }
 
 nav {
@@ -50,3 +65,22 @@ nav {
   .logo-row {
       line-height: 123.23px;
   }
+
+.service{
+  background-color: blue;
+ }
+.py-10{
+  padding: 10px 0;
+}
+
+.service .title{
+  padding-top: 4rem;
+}
+
+.border_bottom{
+  border-bottom: 1px solid white;
+}
+
+.strong {
+    font-weight: bold;
+}
