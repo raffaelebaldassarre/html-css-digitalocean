@@ -52,6 +52,10 @@ nav {
 ul.nav.navbar-nav.nav-bar_left{
     margin-left: 100px;
 }
+.navbar-default .navbar-nav>li>a {
+  font-weight: 700;
+  font-size: 16px;
+}
 /* /NAVBAR */
 
 .jumbotron {
@@ -195,6 +199,16 @@ footer {
   }
 }
 /* NAVBAR */
+
+@media (max-width: 1199px){
+  .navbar-right {
+    margin-right: -25px !important;
+  }
+  ul.nav.navbar-nav.nav-bar_left{
+      margin-left:0;
+  }
+}
+
 @media (max-width: 991px){
   .col-md-7.col-sm-7 h1{
     font-size: 3.5rem;
