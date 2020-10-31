@@ -8,12 +8,14 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
   <body>
     <!-- HEADER -->
     <header class="site-header">
+      <!-- NAVBAR -->
       <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+        <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
@@ -21,11 +23,11 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">DigitalOcean</a>
+            <a class="navbar-brand" href="#"><img src="assets/img/logo.svg" alt=""></a>
           </div>
-
+          <!-- navbar-collapse -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav nav-bar_left">
               <li><a href="#">Products</a></li>
               <li><a href="#">Customers</a></li>
               <li><a href="#">Community</a></li>
@@ -43,9 +45,11 @@
           </div>
           <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
+        <!-- /.container -->
       </nav>
+      <!-- /NAVBAR -->
 
+      <!-- JUMBOTRON -->
       <div class="jumbotron">
         <div class="container">
           <div class="row">
@@ -59,36 +63,38 @@
               </p>
             </div>
             <div class="col-md-5 col-sm-5">
-              <div class="bg-white img-rounded text-center">
+              <div class="bg-white img-rounded text-center google-form">
                 <h2>Deploy your app in seconds.</h2>
-                <h2>Get started now.</h2>
-
+                <h2 class="get-started">Get started now.</h2>
+                <!-- FORM -->
                 <form>
                   <div class="form-group">
                     <input type="email" class="form-control" placeholder="Email">
                     <input type="password" class="form-control" required="required" placeholder="Password">
-                  </div>
                   <button type="submit" class="btn btn-primary btn-block">
                       Create your account
                   </button>
-                  <button type="submit" class="btn btn-default btn-block">
+                  <button type="submit" class="btn btn-default btn-block button-google">
                     <img src="assets/img/GoogleLogo.svg" alt="" id="logo-google">
                     <span>Sign up with google</span>
                   </button>
+                  </div>
                   <small>By signing up you agree to the
                   <a href="#">Terms of Service</a>.
                   </small>
                 </form>
+                <!-- /FORM -->
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- /JUMBOTRON -->
     </header>
     <!-- /HEADER -->
     <!-- MAIN -->
     <main class="site-main">
-      <!-- SECTION LOGHI -->
+      <!-- LOGHI -->
       <section class="text-center loghi bg-grey">
         <div class="container">
           <div class="row">
@@ -123,7 +129,7 @@
           </div>
         </div>
       </section>
-      <!-- /SECTION LOGHI -->
+      <!-- /LOGHI -->
       <!-- DEPLOY -->
       <section class="deploy">
         <div class="container">
@@ -211,14 +217,11 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-3 text-right">CHEV</div>
-            <div class="col-md-6">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Explicabo blanditiis ullam illo, assumenda unde molestias
-              perferendis sunt. Iure, perspiciatis. Quam veniam cum amet commodi
-              harum soluta cumque veritatis assumenda quas?
+            <div class="col-sm-2 col-md-2 text-right chev"><i class="glyphicon glyphicon-chevron-left"></i></div>
+            <div class="col-xs-8 col-sm-8 col-md-8">
+              <img class="img-responsive"src="assets/img/designed-img.jpg" alt="">
             </div>
-            <div class="col-md-3">CHEV</div>
+            <div class="col-sm-2 col-md-2 chev"><i class="glyphicon glyphicon-chevron-right"></i></div>
           </div>
 
           <div class="row">
@@ -240,7 +243,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <img src="assets/img/icon-task-list-multiple.svg" alt="">
               <h4>Predictable pricing</h4>
               <p>
@@ -249,7 +252,7 @@
               </p>
               <a href="#">Security ></a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <img src="assets/img/icon-task-list-multiple.svg" alt="">
               <h4>Predictable pricing</h4>
               <p>
@@ -258,7 +261,7 @@
               </p>
               <a href="#">Security ></a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <img src="assets/img/icon-task-list-multiple.svg" alt="">
               <h4>Predictable pricing</h4>
               <p>
@@ -368,7 +371,7 @@
           </div>
         </div>
       </section>
-      <!-- /.SERVICE -->
+      <!-- /SERVICE -->
       <!-- DEVELOPMENT -->
       <section class="development bg-grey text-center">
         <div class="container">
@@ -379,25 +382,21 @@
           </div>
 
           <div class="row">
-            <div class="col-md-3 text-right">CHEV</div>
-            <div class="col-md-6">
+            <div class="col-md-3 col-sm-3 text-right chev"><i class="glyphicon glyphicon-chevron-left"></i></div>
+            <div class="col-md-6 col-sm-6 col-xs-8">
               <div class="rockerbox bg-white">
-                <img
-                  src="./img/16673e66-0c2f-417b-88bb-f02cc12b8fda_rockerbox-logo-51462da2.png"
-                  alt=""
-                />
+                <img src="assets/img/16673e66-0c2f-417b-88bb-f02cc12b8fda_rockerbox-logo-51462da2.png" alt="">
                 <p class="lead">
                   "We have been able to make scaling the technical
                   infrastructure of our business cost effective and efficient."
                 </p>
                 <div>
-                  <span><strong>Rick O'Toole</strong><br>
-                  Co-founder and CTO</span><br>
+                  <span><strong>Rick O'Toole</strong><br>Co-founder and CTO</span><br>
                   <a href="#">Read story <i class="fas fa-angle-right"></i></a>
                 </div>
               </div>
             </div>
-            <div class="col-md-3 text-left">CHEV</div>
+            <div class="col-md-3 col-sm-3 text-left chev"><i class="glyphicon glyphicon-chevron-right"></i></div>
           </div>
 
           <div class="row">
@@ -432,11 +431,10 @@
         <div class="row">
           <div class="col-md-4">
             <div class="logo-mark">
-              <img src="assets/img/digitalocean-logo-mark.svg" alt="" />
+              <img src="assets/img/digitalocean-logo-mark.svg" alt="">
             </div>
             <div class="copy small">
-              2018 DigitalOcean, LLC. All rights reserved.<br />
-              <span>Proudly made in NY</span>
+              <p>2018 DigitalOcean, LLC. All rights reserved.<br><span>Proudly made in NY</span></p>
             </div>
             <div class="social">
               <ul class="list-inline list-unstyled">
@@ -460,7 +458,7 @@
           </div>
           <div class="col-md-8">
             <div class="row">
-              <div class="col-md-3">
+              <div class="col-md-3 col-sm-6">
                 <h5>Company</h5>
                 <ul class="list-unstyled">
                   <li><a href="#">About</a></li>
@@ -475,7 +473,7 @@
                   <li><a href="#">About</a></li>
                 </ul>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-sm-6">
                 <h5>Company</h5>
                 <ul class="list-unstyled">
                   <li><a href="#">About</a></li>
@@ -490,7 +488,7 @@
                   <li><a href="#">About</a></li>
                 </ul>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-sm-6">
                 <h5>Company</h5>
                 <ul class="list-unstyled">
                   <li><a href="#">About</a></li>
@@ -505,7 +503,7 @@
                   <li><a href="#">About</a></li>
                 </ul>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-sm-6">
                 <h5>Support</h5>
                 <ul class="list-unstyled">
                   <li><a href="#">About</a></li>
@@ -517,11 +515,11 @@
           </div>
         </div>
       </div>
-      <div class="chatbot text-right">
-        <p class="chatbot-text bg-white text-left img-rounded">
+      <div class="sharkbot text-right">
+        <p class="sharkbot-text bg-white text-left img-rounded">
           Can i help answer any questions you have about DigitalOcean?
         </p>
-        <img src="assets/img/shark.png" alt="" class="chatbot-logo" />
+        <img src="assets/img/shark.png" alt="" class="sharkbot-logo">
       </div>
     </footer>
     <!-- /FOOTER -->
