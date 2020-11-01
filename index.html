@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
 </head>
   <body>
     <!-- HEADER -->
@@ -97,7 +97,7 @@
       <!-- LOGHI -->
       <section class="text-center loghi bg-grey">
         <div class="container">
-          <div class="row">
+          <div class="row row_first_loghi">
             <col-md-12>
               <h3>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h3>
             </col-md-12>
@@ -122,7 +122,7 @@
                 <img src="assets/img/splunklogo.svg" alt="">
               </div>
           </div>
-          <div class="row">
+          <div class="row row_last_loghi">
             <div class="col-md-12">
               <a href="#">View customer stories <i class="fas fa-chevron-right"></i></a>
             </div>
@@ -157,45 +157,33 @@
               </ul>
             </div>
             <div class="col-md-8 col-sm-8">
-              <div class="row">
+              <div class="row row-deploy">
                 <div class="col-md-6 col-sm-6">
-                  <img src="assets/img/droplets-icon.svg" alt="">
-                  <h4>Cluster deployments</h4>
+                  <img src="assets/img/kublogoicon.svg" alt="">
+                  <h4>Kubernetes in minutes</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Incidunt adipisci placeat eveniet laborum natus ab delectus
-                    maxime, quae, libero eos at, quis quas? Laudantium autem
-                    nulla, aut saepe perferendis vitae?
+                    Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.
                   </p>
                 </div>
                 <div class="col-md-6 col-sm-6">
-                  <img src="assets/img/droplets-icon.svg" alt="">
-                  <h4>Cluster deployments</h4>
+                  <img src="assets/img/dropletinboxicon.svg" alt="">
+                  <h4>Flexible compute types</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Incidunt adipisci placeat eveniet laborum natus ab delectus
-                    maxime, quae, libero eos at, quis quas? Laudantium autem
-                    nulla, aut saepe perferendis vitae?
+                    With Basic, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.
                   </p>
                 </div>
                 <div class="col-md-6 col-sm-6">
-                  <img src="assets/img/droplets-icon.svg" alt="">
-                  <h4>Cluster deployments</h4>
+                  <img src="assets/img/featured-AP-icon.svg" alt="">
+                  <h4>App Platform</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Incidunt adipisci placeat eveniet laborum natus ab delectus
-                    maxime, quae, libero eos at, quis quas? Laudantium autem
-                    nulla, aut saepe perferendis vitae?
+                    Build, deploy, and scale apps quickly using a simple, fully managed solution. We’ll handle the infrastructure, app runtimes, and dependencies, so that you can push code to production in just a few clicks.
                   </p>
                 </div>
                 <div class="col-md-6 col-sm-6">
-                  <img src="assets/img/droplets-icon.svg" alt="">
-                  <h4>Cluster deployments</h4>
+                  <img src="assets/img/stacksplusicon.svg" alt="">
+                  <h4>1-Click App Marketplace</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Incidunt adipisci placeat eveniet laborum natus ab delectus
-                    maxime, quae, libero eos at, quis quas? Laudantium autem
-                    nulla, aut saepe perferendis vitae?
+                    Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.
                   </p>
                 </div>
               </div>
@@ -207,7 +195,7 @@
       <!-- DESIGNED -->
       <section class="designed bg-grey">
         <div class="container">
-          <div class="row">
+          <div class="row row-designed">
             <div class="col-md-12 text-center">
               <h2>Designed for developers</h2>
               <p>
@@ -224,7 +212,7 @@
             <div class="col-sm-2 col-md-2 chev"><i class="glyphicon glyphicon-chevron-right"></i></div>
           </div>
 
-          <div class="row">
+          <div class="row row-circle">
             <div class="col-md-12 text-center">
               <h3>Create compute servers in 55 seconds or less.</h3>
               <i class="fas fa-circle"></i><i class="far fa-circle"></i
@@ -237,7 +225,7 @@
       <!-- FEATURES -->
       <section class="features">
         <div class="container">
-          <div class="row">
+          <div class="row row-features">
             <div class="col-md-12 text-center">
               <h2>The features your business needs</h2>
             </div>
@@ -250,23 +238,21 @@
                 Leave complex pricing structures behind. Always know what you'll
                 pay per month with a flat, industry-leading pricing structure.
               </p>
-              <a href="#">Security ></a>
+              <a href="#">Pricing ></a>
             </div>
             <div class="col-md-4 col-sm-4">
-              <img src="assets/img/icon-task-list-multiple.svg" alt="">
-              <h4>Predictable pricing</h4>
+              <img src="assets/img/icon-headphones-customer-support-human.svg" alt="">
+              <h4>World-class service</h4>
               <p>
-                Leave complex pricing structures behind. Always know what you'll
-                pay per month with a flat, industry-leading pricing structure.
+                Free around-the-clock technical support for all customers, with additional benefits for premium support subscribers. You’ll feel the love.
               </p>
-              <a href="#">Security ></a>
+              <a href="#">Support ></a>
             </div>
             <div class="col-md-4 col-sm-4">
-              <img src="assets/img/icon-task-list-multiple.svg" alt="">
-              <h4>Predictable pricing</h4>
+              <img src="assets/img/icon-check-shield.svg" alt="">
+              <h4>Reliable platform</h4>
               <p>
-                Leave complex pricing structures behind. Always know what you'll
-                pay per month with a flat, industry-leading pricing structure.
+                More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.
               </p>
               <a href="#">Security ></a>
             </div>
@@ -275,7 +261,7 @@
       </section>
       <!-- /FEATURES -->
       <!-- SERVICE -->
-      <section class="service bg-blue">
+      <section class="service bg-service">
         <h2 class="title text-center">Service your costumers around the world from 12 regions.</h2>
 
         <div class="container">
@@ -375,7 +361,7 @@
       <!-- DEVELOPMENT -->
       <section class="development bg-grey text-center">
         <div class="container">
-          <div class="row">
+          <div class="row row-development">
             <div class="col-xs-12">
               <h2>Development teams love DigitalOcean</h2>
             </div>
@@ -399,7 +385,7 @@
             <div class="col-md-3 col-sm-3 text-left chev"><i class="glyphicon glyphicon-chevron-right"></i></div>
           </div>
 
-          <div class="row">
+          <div class="row row-development-circle">
             <div class="col-md-12 text-center">
               <i class="fas fa-circle"></i><i class="far fa-circle"></i
               ><i class="far fa-circle"></i>
@@ -412,7 +398,7 @@
       <!-- STARTED -->
       <section class="started text-center bg-electric-blue">
         <div class="container">
-          <div class="row">
+          <div class="row row-started">
             <div class="col-xs-12">
               <h2>Get started now.</h2>
               <button type="submit" class="btn btn-default">
@@ -428,7 +414,7 @@
     <!-- FOOTER -->
     <footer class="site-footer bg-blue">
       <div class="container">
-        <div class="row">
+        <div class="row row-footer">
           <div class="col-md-4">
             <div class="logo-mark">
               <img src="assets/img/digitalocean-logo-mark.svg" alt="">
