@@ -2,26 +2,22 @@ body {
   padding-top: 70px;
   font-family: 'Roboto', sans-serif;
 }
-
 /* UTILITY */
 .bg-white {
   background-color: white;
 }
-
 .bg-grey {
   background-color: #f3f5f9;
 }
-
 .bg-blue {
   background-color: #031b4e;
 }
 .bg-service{
   background-color: #1507fb;
-  }
+}
 .bg-electric-blue {
   background-color: #0067ff;
 }
-
 .bg-dark-blue {
   background-color: #031C4E;
 }
@@ -31,7 +27,6 @@ body {
 .py-10{
   padding: 10px 0;
 }
-
 .pdx-5 {
   padding: 0 5px;
 }
@@ -77,17 +72,14 @@ ul.nav.navbar-nav.nav-bar_left{
   background-color: #3B8AFF;
 }
 /* /NAVBAR */
-
 .jumbotron {
   background-image: url("../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
   background-size: cover;
   margin-bottom: 0;
 }
-
 .col-md-7.col-sm-7 p{
   font-size: 2.4rem;
 }
-
 /* GOOGLE FORM */
 .google-form{
   padding: 20px 10px 30px;
@@ -166,14 +158,12 @@ ul.nav.navbar-nav.nav-bar_left{
   border-left: 1px solid grey;
   padding-left: 10px;
 }
-
 .deploy li {
   line-height: 4.5rem;
   list-style: none;
   color: grey;
   font-size: 2rem;
 }
-
 .deploy {
   margin-bottom: 60px;
 }
@@ -183,7 +173,6 @@ ul.nav.navbar-nav.nav-bar_left{
 .row-designed{
   margin: 80px 0 60px;
 }
-
 .designed h2{
   font-size: 3.5rem;
   font-weight: 500;
@@ -207,29 +196,24 @@ ul.nav.navbar-nav.nav-bar_left{
   padding-left: 5px;
   font-size: 1.2rem;
 }
-
 /* /Designed */
 
 /* Features */
 .row-features{
   margin: 80px 0 60px;
 }
-
 .features{
   margin-bottom: 80px;
 }
-
 .features h2{
   font-size: 3.5rem;
   font-weight: 500;
   color: #031C4E;
 }
-
 .features .col-md-4.col-sm-4 h4{
   font-size: 2rem;
   color: #031C4E;
 }
-
 .features .col-md-4.col-sm-4 p{
   font-size: 1.5rem;
   color: #5C6A88;
@@ -335,13 +319,11 @@ footer {
   font-size: 1.5rem;
   line-height: 25px;
 }
-
 .sharkbot {
   position: absolute;
   bottom: 0px;
   right: 5px;
 }
-
 .sharkbot-text {
   color: blue;
   display: inline-block;
@@ -349,7 +331,6 @@ footer {
   margin: 0 !important;
   padding: 5px;
 }
-
 .sharkbot-logo {
   height: 75px;
   margin-bottom: 35px;
@@ -401,7 +382,10 @@ footer {
     font-size: 40px;
     margin-top: 200px;
   }
-
+  .chev-development{
+    font-size: 30px;
+    margin-top: 100px;
+  }
 }
 @media (max-width: 1199px){
   .navbar-right {
